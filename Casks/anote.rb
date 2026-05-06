@@ -14,17 +14,13 @@ cask "anote" do
 
   depends_on arch: :arm64
 
-  app "aNote.app"
+  quarantine false
 
-  postflight do
-    system_command "/usr/bin/xattr",
-                   args: ["-cr", "#{appdir}/aNote.app"],
-                   sudo: false
-  end
+  app "aNote.app"
 
   zap trash: [
     "~/Library/Application Support/org.puddingtime.notes-editor",
     "~/Library/Caches/org.puddingtime.notes-editor",
-    "~/Library/WebKit/org.puddingtime.notes-editor",
+    "~/Library/WebKit/org.puddingtime.notes-editor"
   ]
 end

@@ -1,6 +1,6 @@
 cask "anote" do
   version "0.1.0"
-  sha256 "TBD_AFTER_FIRST_BUILD"
+  sha256 "079051d8530966e97a9f754afe0135c1ff5047c2a45243562478368efcf45853"
 
   url "https://github.com/mph-llm-experiments/anote-editor/releases/download/v#{version}/aNote_#{version}_aarch64.dmg"
   name "aNote"

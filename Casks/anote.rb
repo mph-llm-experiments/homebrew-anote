@@ -1,6 +1,6 @@
 cask "anote" do
-  version "0.1.6"
-  sha256 "4048ca9cc81bb8671ca4675370a08a6d438750a9e85db94b2920cf54bc00dbc7"
+  version "0.1.7"
+  sha256 "2d388518c25090610d15880999a17b71671247f480b40c6b7c19b445cf391634"
 
   url "https://dist.puddingtime.net/anote/v#{version}/aNote_#{version}_aarch64.dmg"
   name "aNote"
